@@ -1,0 +1,145 @@
+[34m[1mdetect: [0mweights=yolov5s.pt, source=0, data=data\coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_csv=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs\detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
+YOLOv5  2023-11-20 Python-3.9.0 torch-2.1.1 CPU
+
+Fusing layers... 
+YOLOv5s summary: 213 layers, 7225885 parameters, 0 gradients, 16.4 GFLOPs
+1/1: 0...  Success (inf frames 640x480 at 30.00 FPS)
+
+[2023-11-21 08:07:33] 0: 480x640 7 persons, 3 chairs, 2 tvs, 3 laptops, 94.2ms
+[2023-11-21 08:07:33] 0: 480x640 6 persons, 1 chair, 1 tv, 2 laptops, 97.9ms
+[2023-11-21 08:07:33] 0: 480x640 7 persons, 1 tv, 3 laptops, 99.5ms
+[2023-11-21 08:07:33] 0: 480x640 8 persons, 2 tvs, 1 laptop, 93.0ms
+[2023-11-21 08:07:34] 0: 480x640 9 persons, 2 chairs, 1 tv, 1 laptop, 90.5ms
+[2023-11-21 08:07:34] 0: 480x640 7 persons, 2 chairs, 2 tvs, 2 laptops, 94.0ms
+[2023-11-21 08:07:34] 0: 480x640 8 persons, 1 chair, 2 tvs, 2 laptops, 91.5ms
+[2023-11-21 08:07:34] 0: 480x640 7 persons, 2 chairs, 2 tvs, 1 laptop, 91.2ms
+[2023-11-21 08:07:34] 0: 480x640 7 persons, 1 chair, 2 tvs, 2 laptops, 92.5ms
+[2023-11-21 08:07:34] 0: 480x640 9 persons, 1 chair, 1 tv, 92.3ms
+[2023-11-21 08:07:34] 0: 480x640 8 persons, 1 chair, 2 tvs, 90.5ms
+[2023-11-21 08:07:34] 0: 480x640 10 persons, 2 chairs, 1 tv, 90.0ms
+[2023-11-21 08:07:35] 0: 480x640 10 persons, 4 chairs, 2 tvs, 93.6ms
+[2023-11-21 08:07:35] 0: 480x640 8 persons, 4 chairs, 2 tvs, 2 laptops, 95.2ms
+[2023-11-21 08:07:35] 0: 480x640 5 persons, 92.8ms
+[2023-11-21 08:07:35] 0: 480x640 9 persons, 3 chairs, 1 dining table, 1 tv, 91.5ms
+[2023-11-21 08:07:35] 0: 480x640 9 persons, 2 chairs, 1 tv, 82.5ms
+[2023-11-21 08:07:35] 0: 480x640 9 persons, 6 chairs, 1 tv, 91.5ms
+[2023-11-21 08:07:35] 0: 480x640 7 persons, 2 chairs, 1 tv, 93.8ms
+[2023-11-21 08:07:35] 0: 480x640 9 persons, 6 chairs, 1 tv, 91.7ms
+[2023-11-21 08:07:36] 0: 480x640 8 persons, 3 chairs, 93.7ms
+[2023-11-21 08:07:36] 0: 480x640 11 persons, 4 chairs, 92.0ms
+[2023-11-21 08:07:36] 0: 480x640 9 persons, 4 chairs, 1 tv, 2 laptops, 92.5ms
+[2023-11-21 08:07:36] 0: 480x640 10 persons, 5 chairs, 1 tv, 1 laptop, 91.5ms
+[2023-11-21 08:07:36] 0: 480x640 8 persons, 4 chairs, 1 tv, 93.5ms
+[2023-11-21 08:07:36] 0: 480x640 8 persons, 5 chairs, 1 tv, 91.0ms
+[2023-11-21 08:07:36] 0: 480x640 9 persons, 5 chairs, 1 tv, 1 laptop, 93.7ms
+[2023-11-21 08:07:36] 0: 480x640 10 persons, 3 chairs, 89.9ms
+[2023-11-21 08:07:37] 0: 480x640 10 persons, 3 chairs, 91.1ms
+[2023-11-21 08:07:37] 0: 480x640 9 persons, 4 chairs, 1 tv, 92.5ms
+[2023-11-21 08:07:37] 0: 480x640 10 persons, 4 chairs, 1 dining table, 1 laptop, 94.8ms
+[2023-11-21 08:07:37] 0: 480x640 9 persons, 1 backpack, 5 chairs, 1 tv, 91.1ms
+[2023-11-21 08:07:37] 0: 480x640 9 persons, 1 backpack, 6 chairs, 1 tv, 1 laptop, 85.5ms
+[2023-11-21 08:07:37] 0: 480x640 9 persons, 5 chairs, 1 tv, 1 laptop, 95.2ms
+[2023-11-21 08:07:37] 0: 480x640 8 persons, 1 backpack, 4 chairs, 1 tv, 1 laptop, 95.5ms
+[2023-11-21 08:07:37] 0: 480x640 10 persons, 1 backpack, 6 chairs, 1 tv, 93.5ms
+[2023-11-21 08:07:38] 0: 480x640 8 persons, 1 backpack, 7 chairs, 87.5ms
+[2023-11-21 08:07:38] 0: 480x640 10 persons, 6 chairs, 1 laptop, 90.8ms
+[2023-11-21 08:07:38] 0: 480x640 7 persons, 6 chairs, 1 tv, 83.7ms
+[2023-11-21 08:07:38] 0: 480x640 6 persons, 1 dog, 5 chairs, 1 laptop, 96.9ms
+[2023-11-21 08:07:38] 0: 480x640 7 persons, 6 chairs, 1 laptop, 79.5ms
+[2023-11-21 08:07:38] 0: 480x640 7 persons, 7 chairs, 1 tv, 1 laptop, 91.9ms
+[2023-11-21 08:07:38] 0: 480x640 8 persons, 5 chairs, 1 tv, 1 laptop, 91.2ms
+[2023-11-21 08:07:38] 0: 480x640 8 persons, 7 chairs, 1 tv, 1 laptop, 94.5ms
+[2023-11-21 08:07:38] 0: 480x640 7 persons, 5 chairs, 1 tv, 1 laptop, 93.5ms
+[2023-11-21 08:07:39] 0: 480x640 6 persons, 7 chairs, 1 tv, 1 laptop, 92.0ms
+[2023-11-21 08:07:39] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 86.5ms
+[2023-11-21 08:07:39] 0: 480x640 6 persons, 6 chairs, 1 tv, 1 laptop, 91.3ms
+[2023-11-21 08:07:39] 0: 480x640 6 persons, 7 chairs, 1 tv, 1 laptop, 91.0ms
+[2023-11-21 08:07:39] 0: 480x640 7 persons, 7 chairs, 1 tv, 1 laptop, 80.0ms
+[2023-11-21 08:07:39] 0: 480x640 8 persons, 7 chairs, 1 tv, 1 laptop, 92.5ms
+[2023-11-21 08:07:39] 0: 480x640 8 persons, 7 chairs, 1 tv, 1 laptop, 92.1ms
+[2023-11-21 08:07:39] 0: 480x640 7 persons, 5 chairs, 1 tv, 1 laptop, 87.6ms
+[2023-11-21 08:07:40] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 91.5ms
+[2023-11-21 08:07:40] 0: 480x640 8 persons, 4 chairs, 1 tv, 1 laptop, 91.5ms
+[2023-11-21 08:07:40] 0: 480x640 8 persons, 5 chairs, 1 tv, 1 laptop, 99.3ms
+[2023-11-21 08:07:40] 0: 480x640 8 persons, 7 chairs, 1 tv, 1 laptop, 95.9ms
+[2023-11-21 08:07:40] 0: 480x640 10 persons, 7 chairs, 1 tv, 1 laptop, 91.9ms
+[2023-11-21 08:07:40] 0: 480x640 7 persons, 7 chairs, 1 tv, 1 laptop, 91.5ms
+[2023-11-21 08:07:40] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 89.5ms
+[2023-11-21 08:07:40] 0: 480x640 8 persons, 7 chairs, 1 tv, 85.1ms
+[2023-11-21 08:07:41] 0: 480x640 7 persons, 6 chairs, 1 tv, 96.0ms
+[2023-11-21 08:07:41] 0: 480x640 7 persons, 8 chairs, 1 tv, 92.1ms
+[2023-11-21 08:07:41] 0: 480x640 7 persons, 4 chairs, 1 tv, 94.7ms
+[2023-11-21 08:07:41] 0: 480x640 6 persons, 1 backpack, 1 cup, 5 chairs, 1 tv, 1 laptop, 93.1ms
+[2023-11-21 08:07:41] 0: 480x640 7 persons, 1 cup, 6 chairs, 1 tv, 1 laptop, 92.3ms
+[2023-11-21 08:07:41] 0: 480x640 8 persons, 6 chairs, 2 tvs, 1 laptop, 98.1ms
+[2023-11-21 08:07:41] 0: 480x640 9 persons, 1 backpack, 5 chairs, 1 tv, 1 laptop, 88.0ms
+[2023-11-21 08:07:41] 0: 480x640 10 persons, 6 chairs, 1 tv, 1 laptop, 95.9ms
+[2023-11-21 08:07:42] 0: 480x640 9 persons, 7 chairs, 1 tv, 1 laptop, 94.0ms
+[2023-11-21 08:07:42] 0: 480x640 9 persons, 7 chairs, 1 tv, 1 laptop, 96.2ms
+[2023-11-21 08:07:42] 0: 480x640 8 persons, 7 chairs, 1 tv, 1 laptop, 94.5ms
+[2023-11-21 08:07:42] 0: 480x640 8 persons, 6 chairs, 2 tvs, 1 laptop, 97.0ms
+[2023-11-21 08:07:42] 0: 480x640 9 persons, 7 chairs, 1 tv, 1 laptop, 84.5ms
+[2023-11-21 08:07:42] 0: 480x640 8 persons, 6 chairs, 1 tv, 1 laptop, 94.1ms
+[2023-11-21 08:07:42] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 83.7ms
+[2023-11-21 08:07:42] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 99.9ms
+[2023-11-21 08:07:43] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 remote, 97.5ms
+[2023-11-21 08:07:43] 0: 480x640 7 persons, 6 chairs, 1 tv, 1 laptop, 103.7ms
+[2023-11-21 08:07:43] 0: 480x640 7 persons, 5 chairs, 1 tv, 1 laptop, 97.5ms
+[2023-11-21 08:07:43] 0: 480x640 7 persons, 7 chairs, 2 tvs, 1 laptop, 96.2ms
+[2023-11-21 08:07:43] 0: 480x640 8 persons, 5 chairs, 1 dining table, 1 tv, 1 laptop, 82.0ms
+Traceback (most recent call last):
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\detect.py", line 285, in <module>
+    main(opt)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\detect.py", line 280, in main
+    run(**vars(opt))
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\utils\_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\detect.py", line 130, in run
+    pred = model(im, augment=augment, visualize=visualize)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\common.py", line 527, in forward
+    y = self.model(im, augment=augment, visualize=visualize) if augment or visualize else self.model(im)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\yolo.py", line 209, in forward
+    return self._forward_once(x, profile, visualize)  # single-scale inference, train
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\yolo.py", line 121, in _forward_once
+    x = m(x)  # run
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\common.py", line 179, in forward
+    return self.cv3(torch.cat((self.m(self.cv1(x)), self.cv2(x)), 1))
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\container.py", line 215, in forward
+    input = module(input)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\common.py", line 132, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\Giriraj S A\Desktop\project\yolov5-master\models\common.py", line 71, in forward_fuse
+    return self.act(self.conv(x))
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\conv.py", line 460, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\ProgramData\anaconda3\envs\tf_gpu\lib\site-packages\torch\nn\modules\conv.py", line 456, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+KeyboardInterrupt
